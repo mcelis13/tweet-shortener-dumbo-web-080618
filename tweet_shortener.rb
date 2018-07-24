@@ -17,10 +17,10 @@ end
 def word_substituter(string)
   wordsArray = string.split(' ')
   wordsArray.each do |word|
+    binding.pry
     dictionaryObj = dictionary()
     if dictionaryObj.has_keys?(word)
       word = dictionaryObj.fetch(word)
     end
   end
-  binding.pry
 end
