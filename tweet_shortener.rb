@@ -1,3 +1,4 @@
+require.pry
 def dictionary
   return {
     "hello" => 'hi',
