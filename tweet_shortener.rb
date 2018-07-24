@@ -21,4 +21,5 @@ def word_substituter(string)
       word = dictionaryObj.fetch(word)
     end
   end
+  binding.pry
 end
