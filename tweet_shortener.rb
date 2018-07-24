@@ -12,3 +12,10 @@ def dictionary
     "and" => '&'
   }
 end
+
+def word_substituter(string)
+  wordsArray = string.split(' ')
+  wordArray.each do |word|
+    if 
+  end
+end
