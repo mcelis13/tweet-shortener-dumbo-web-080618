@@ -19,7 +19,6 @@ def word_substituter(string)
     dictionaryObj = dictionary()
     if dictionaryObj.has_keys?(word)
       word = dictionaryObj.fetch(word)
-      
     end
   end
 end
