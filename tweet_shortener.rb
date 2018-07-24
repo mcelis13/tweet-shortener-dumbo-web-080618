@@ -17,8 +17,8 @@ def word_substituter(string)
   wordsArray = string.split(' ')
   wordArray.each do |word|
     dictionaryObj = dictionary()
-    keys = dictionaryObj.keys
-    if keys.includes?(word)
+    keysArray = dictionaryObj.keys
+    if keysArray.includes?(word)
       word =
     end
   end
