@@ -20,7 +20,6 @@ def word_substituter(string)
     dictionaryObj = dictionary()
     if dictionaryObj.has_key?(word)
       word = dictionaryObj.fetch(word)
-      binding.pry
     end
   end
   wordsArray.join()
