@@ -28,4 +28,3 @@ def word_substituter(string)
   end
   string = filtered.join(' ')
 end
-word_substituter('to be you at')
