@@ -21,8 +21,11 @@ def word_substituter(string)
     dictionaryObj = dictionary()
     if dictionaryObj.has_key?(word)
       word = dictionaryObj.fetch(word)
+      filtered.push(word)
+    else
+      filtered.push(word)
     end
   end
-  string = wordsArray.join(' ')
+  string = filtered.join(' ')
 end
 word_substituter('to be you at')
