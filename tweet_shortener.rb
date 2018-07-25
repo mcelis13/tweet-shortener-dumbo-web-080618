@@ -22,6 +22,6 @@ def word_substituter(string)
       word = dictionaryObj.fetch(word)
     end
   end
-  wordsArray.join()
+  wordsArray.join(',')
   binding.pry
 end
