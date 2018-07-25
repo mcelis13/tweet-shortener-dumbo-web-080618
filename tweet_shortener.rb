@@ -24,7 +24,6 @@ def word_substituter(string)
       filtered.push(word)
     else
       filtered.push(word)
-      binding.pry
     end
   end
   string = filtered.join(' ')
