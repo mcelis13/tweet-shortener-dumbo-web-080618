@@ -23,5 +23,4 @@ def word_substituter(string)
     end
   end
   string = wordsArray.join(' ')
-  binding.pry
 end
