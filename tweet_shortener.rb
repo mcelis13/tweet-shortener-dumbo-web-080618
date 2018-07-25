@@ -24,3 +24,4 @@ def word_substituter(string)
   end
   string = wordsArray.join(' ')
 end
+word_substituter('to be you')
