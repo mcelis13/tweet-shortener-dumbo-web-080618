@@ -18,8 +18,8 @@ def word_substituter(string)
   wordsArray = string.split(' ')
   wordsArray.each do |word|
     dictionaryObj = dictionary()
-    binding.pry
     if dictionaryObj.has_keys?(word)
+      binding.pry
       word = dictionaryObj.fetch(word)
     end
   end
