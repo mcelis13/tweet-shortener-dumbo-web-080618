@@ -21,10 +21,10 @@ def word_substituter(string)
     dictionaryObj = dictionary()
     if dictionaryObj.has_key?(word)
       word = dictionaryObj.fetch(word)
-      binding.pry
       filtered.push(word)
     else
       filtered.push(word)
+      binding.pry
     end
   end
   string = filtered.join(' ')
